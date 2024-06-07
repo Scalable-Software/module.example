@@ -6,7 +6,7 @@
   "types": "dist/Calculator.d.ts",
   "browser": "dist/Calculator.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@scalable-software"
+    "registry": "https://npm.pkg.github.com/@Scalable-Software"
   },
   "scripts": {
     "clean.test": "node ./tasks/clean.test.mjs",
