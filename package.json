@@ -1,6 +1,6 @@
 {
   "name": "@scalable-software/module.example",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESM based Simple Calculator",
   "exports": {
     ".": {
@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Scalable-Software/module.example.git"
+    "url": "git+https://github.com/scalable-software/module.example.git"
   },
   "author": "Scalable.Software",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/Scalable-Software/module.example/issues"
+    "url": "https://github.com/scalable-software/module.example/issues"
   },
-  "homepage": "https://github.com/Scalable-Software/module.example#readme",
+  "homepage": "https://github.com/scalable-software/module.example#readme",
   "devDependencies": {
     "@types/jasmine": "^5.1.4",
     "http-server": "^14.1.1",
