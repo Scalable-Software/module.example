@@ -1,8 +1,8 @@
 ![License: CC BY-NC-SA 4.0](https://flat.badgen.net/static/license/CC-BY-NC-SA-4.0/green)
 
-# Web.Component
+# Module.Example
 
-A comprehensive template for creating Web Components with unit testing and api document generation.
+A ES6 based calculator module that can be used in the browser. The module is written in TypeScript and compiled to ES6 using the TypeScript compiler. The module is also tested using the Jasmine test framework and the Karma test runner. The module is also documented using Typedoc.
 
 ## Installation
 
@@ -27,78 +27,6 @@ npm test
 ```bash
 npm run build
 ```
-
-## Usage
-
-The below steps will guide you through all the unique feature associated with the demo web component, a `pin-button`. As the name implies, the `pin-button` is a simple button that can be switched `on` and `off`. But includes both a declarative and imperative API, event handling, and state management.
-
-1. After successful build, run the following command:
-
-```bash
-npm run serve
-```
-
-2. Observe the `pin-button` web component
-
-3. Open the chrome developer tools and select the console
-
-4. Get a reference to the web component in the browser console
-
-```javascript
-const pin = document.querySelector("pin-button");
-```
-
-5. Create an onon event listener for the web component
-
-```javascript
-const onon = () => {
-  console.log("onon triggered");
-};
-```
-
-6. Add the event listener to the web component
-
-```javascript
-pin.onon = onon;
-```
-
-7. Switch the pin on using the imperative API
-
-```javascript
-pin.on();
-```
-
-8. Observe the visual changes in the browser and the console
-
-9. Select the elements tab in the chrome developer tools and inspect the html
-
-```html
-<pin-button state="on"></pin-button>
-```
-
-10. manually change the state attribute value to `off`
-
-11. Observe the visual changes in the browser
-
-12. Return to the console tab and get the current state of the web component
-
-```javascript
-pin.state;
-```
-
-13. Click the web component with the mouse
-
-14. Again observe the event which is triggered in the console
-
-15. Lastly, get the current state of the web component again
-
-```javascript
-pin.state;
-```
-
-See [API Documentation](https://scalable-software.github.io/web.component/).
-
-> **Note**: See the section of Typedoc how to generate the API documentation.
 
 ### Typescript Compiler Options
 
