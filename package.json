@@ -2,9 +2,13 @@
   "name": "module.example",
   "version": "1.0.0",
   "description": "ESM based Simple Calculator",
-  "main": "dist/Calculator.js",
+  "exports": {
+    ".": {
+      "import": "./dist/Calculator.js"
+    }
+  },
   "types": "dist/Calculator.d.ts",
-  "browser": "dist/Calculator.js",
+  "module": "dist/Calculator.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@Scalable-Software"
   },
