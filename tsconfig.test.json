@@ -7,7 +7,7 @@
     "inlineSources": true,
     "baseUrl": "./",
     "paths": {
-      "pin": ["./src/Pin.js"]
+      "calculator": ["./src/Calculator.js"]
     },
     "declaration": false
   },

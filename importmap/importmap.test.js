@@ -6,7 +6,7 @@
 inject(
   {
     imports: {
-      pin: "./src/Pin.js",
+      calculator: "./src/Calculator.js",
     },
   },
   "importmap"

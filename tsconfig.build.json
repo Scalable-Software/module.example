@@ -8,7 +8,7 @@
     "outDir": "./dist/",
     "baseUrl": "./",
     "paths": {
-      "pin": ["./src/Pin.js"]
+      "calculator": ["./src/Calculator.js"]
     }
   },
   "include": ["./src/**/*"]

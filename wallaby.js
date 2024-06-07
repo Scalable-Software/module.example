@@ -17,7 +17,7 @@ module.exports = function (wallaby) {
         inlineSources: true,
         baseUrl: "./",
         paths: {
-          pin: ["./src/Pin.js"],
+          calculator: ["./src/Calculator.js"],
         },
       }),
     },

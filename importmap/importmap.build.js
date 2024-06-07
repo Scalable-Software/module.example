@@ -6,7 +6,7 @@
 inject(
   {
     imports: {
-      pin: "../dist/Pin.js",
+      calculator: "../dist/Calculator.js",
     },
   },
   "importmap"
