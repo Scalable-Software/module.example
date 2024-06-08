@@ -2,9 +2,9 @@
 
 # Module.Example
 
-A ES6 based calculator module that can be used in the browser. The module is written in TypeScript and compiled to ES6 using the TypeScript compiler. The module is also tested using the Jasmine test framework and the Karma test runner. The module is also documented using Typedoc.
+A comprehensive template for creating ES6 modules with unit testing and api document generation.
 
-## Installation
+## Development
 
 1. Create a new repository using this template
 
@@ -28,6 +28,16 @@ npm test
 npm run build
 ```
 
+## Publishing
+
+1. Update the version number in the `package.json` file
+
+2. Create a new pull request to the main branch
+
+3. Once the pull request has been merged, a new package will be published to GitHub Packages
+
+> Note: see the `publishConfig` in `package.json` for more details.
+
 ### Typescript Compiler Options
 
 Two different typescript configuration are defined: `tsconfig.build.json` and `tsconfig.test.json`. The typescript complier options of the two files are largely the same. The main difference is that type declarations are included two configuration files are largely the same. Below is an overview of the compiler options used:
@@ -43,7 +53,7 @@ Two different typescript configuration are defined: `tsconfig.build.json` and `t
     "outDir": "./dist/",
     "baseUrl": "./",
     "paths": {
-      "pin": ["./src/Pin.js"]
+      "calculator": ["./src/Calculator.js"]
     }
   },
   "include": ["./src/**/*"]
@@ -77,12 +87,6 @@ To generate the API documentation, in the docs folder, use the following command
 ```bash
 npm run document
 ```
-
-### HTML Templates
-
-This template also demonstrate the use of HTML templates which is part of the Web Component technology stack. HTML template is used to define the web component layout and also includes a reference to an external `css` file used for styling and micro animations. See the `Pin.template.html` and `Pin.css` files in the `src` folder for more details.
-
-Again to keep the main HTML file as lean as possible, HTML Templates are loaded using a `loadTemplate` utility. The `loadTemplate` utility is used in both the demo and unit tests.
 
 ### Importmaps
 
