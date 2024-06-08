@@ -2,7 +2,7 @@
 
 # Module.Example
 
-A comprehensive template for creating ES6 modules with unit testing and api document generation.
+A comprehensive template for creating ES6 modules, for use in the browser, with unit testing and api document generation.
 
 ## Development
 
