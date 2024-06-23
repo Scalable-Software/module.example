@@ -28,15 +28,38 @@ npm test
 npm run build
 ```
 
+6. Update the `package.json` file with the appropriate details.
+
+7. Update the `README.md` file with the appropriate details.
+
+8. Update the `LICENSE` file with the appropriate details.
+
+> Note: This template uses a scoped package name: `@scalable.software/module.example`. To used scoped package names you will need to create an account on NPM and create a new organization. Also note, the free tier of NPM allows for unlimited public packages only. if you want to create private packages, you will need to upgrade to a paid plan.
+
 ## Publishing
 
-1. Update the version number in the `package.json` file
+A new package will be published to NPM when a new release is created in Github. However, it is important to bump the version number in the `package.json` file, as well as creating an associated tag, before creating a new release. Following the steps below:
 
-2. Create a new pull request to the main branch
+1. Determine the type of version bump (major, minor, patch)
+2. Run the following command to bump the version number
 
-3. Once the pull request has been merged, a new package will be published to GitHub Packages
+```bash
+npm version <major|minor|patch>
+```
 
-> Note: see the `publishConfig` in `package.json` for more details.
+3. Create a tag using the new version number
+
+```bash
+git tag -a v1.0.0 -m "Version 1.0.0"
+```
+
+4. Push the tag to the remote repository
+
+```bash
+git push origin v1.0.0
+```
+
+5. Create a new release in Github
 
 ### Typescript Compiler Options
 
