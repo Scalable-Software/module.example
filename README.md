@@ -47,7 +47,7 @@ A new package will be published to NPM when a new release is created in Github. 
 npm version <major|minor|patch>
 ```
 
-3. Create a tag using the new version number
+3. Given you have used the above command a tag will be automatically created, else you can create a tag manually
 
 ```bash
 git tag -a v1.0.0 -m "Version 1.0.0"
@@ -60,6 +60,8 @@ git push origin v1.0.0
 ```
 
 5. Create a new release in Github
+
+> Note: a manual publication to NPM is required for the first release when using a scoped package on the free tier of NPM: `npm publish --access public`.
 
 ### Typescript Compiler Options
 
