@@ -4,6 +4,8 @@
 
 A comprehensive template for creating ES6 modules, for use in the browser, with unit testing and api document generation.
 
+Although this example modules can be used in the browser, it does not include any UI. It is just a simple Calculator. For a template that includes a complete Web Component see: [web.component](https://github.com/scalable-software/web.component)
+
 ## Development
 
 1. Create a new repository using this template
@@ -22,7 +24,7 @@ npm install
 npm test
 ```
 
-5. Build the web component
+5. Build the es6 module
 
 ```bash
 npm run build
@@ -34,7 +36,7 @@ npm run build
 
 8. Update the `LICENSE` file with the appropriate details.
 
-> Note: This template uses a scoped package name: `@scalable.software/module.example`. To used scoped package names you will need to create an account on NPM and create a new organization. Also note, the free tier of NPM allows for unlimited public packages only. if you want to create private packages, you will need to upgrade to a paid plan.
+> Note: This template uses a scoped package name: `@scalable.software/module.example`. To use scoped package names you will need to create an account on NPM and create a new organization. Also note, the free tier of NPM allows for unlimited public packages only. if you want to create private packages, you will need to upgrade to a paid plan.
 
 ## Publishing
 
