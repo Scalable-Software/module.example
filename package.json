@@ -1,6 +1,6 @@
 {
   "name": "@scalable.software/module.example",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ESM based Simple Calculator",
   "exports": {
     ".": {
